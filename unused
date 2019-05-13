@@ -1,0 +1,44 @@
+  <div>
+
+      <Router>
+        <div>
+        {/* <button><Link to={'/'} > Home </Link></button> */}
+        <button><Link to={'/login'} >Login</Link></button>
+        <button><Link to={'/signup'} >Signup</Link></button>
+
+        <Switch>
+          {/* <Route exact path='/' component={App} /> */}
+          <Route path='/login' component={Login} />
+          <Route path='/signup' component={Signup} />
+        </Switch>
+
+        </div>
+        </Router>
+
+
+        {/* <div><Header /></div>
+        <Container>
+          <Row>
+            <Col xs='3'>
+              <Card>
+
+                <CardBody>
+                  <CardTitle>Username</CardTitle>
+
+                </CardBody>
+              </Card>
+
+            </Col>
+            <Col xs='9'>
+            <Card>
+
+<CardBody>
+  <CardTitle>Username</CardTitle>
+
+</CardBody>
+</Card>
+            </Col>
+          </Row>
+        </Container> */}
+
+      </div>
